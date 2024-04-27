@@ -30,7 +30,7 @@ namespace _6toDAES7
         {
             ProductBusiness business = new ProductBusiness();
             string productName = txtProductName.Text;
-            dgProductNombre.ItemsSource = business.GetByName(productName);
+            dgProduct.ItemsSource = business.GetByName(productName);
         }
 
 

@@ -9,17 +9,12 @@
     <Grid>
         <StackPanel VerticalAlignment="Center">
             <TextBlock Text="Lista " HorizontalAlignment="Center" FontSize="24" Margin="0 0 0 2"/>
-            <Button Content="Listar Empleado" Click="Button_Click2" HorizontalAlignment="Left" />
+            <Button Content="Listar Productos" Click="Button_Click2" HorizontalAlignment="Left" />
             <StackPanel VerticalAlignment="Center">
                 <Button Content="Listar Nombre" Click="Button_Click4" HorizontalAlignment="Right" />
-
                 <TextBox x:Name="txtProductName" Width="200" Margin="5"/>
             </StackPanel>
-            
-
-            <DataGrid x:Name="dgProduct"
-                      ></DataGrid>
-            <DataGrid x:Name="dgProductNombre"></DataGrid>
+            <DataGrid x:Name="dgProduct"></DataGrid>
         </StackPanel>
 
     </Grid>
